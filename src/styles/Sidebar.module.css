@@ -1,0 +1,10 @@
+.sidebar{
+    display: flex;
+    box-sizing: border-box;
+    height: 100%;
+    width: 70px;
+    max-width: 15%;
+
+    background-color: rgb(255, 187, 0);
+    border: 3px solid darkred;
+}
