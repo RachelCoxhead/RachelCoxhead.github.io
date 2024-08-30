@@ -1,13 +1,11 @@
 .page {
-    background-color: pink;
-    box-sizing: border-box;
-    border: 2px solid hotpink;
-    height: 100%;
-    font: 5rem;
-    font-family: 'Monaco', sans-serif;
-    line-height: 1.5rem;
-  
-    letter-spacing: 0.1rem;
+  color:white;
+  background-color: #282B36;
+  height: 100%;
+  font: 5rem;
+  font-family: 'Monaco', sans-serif;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
 }
 
 .code_section {

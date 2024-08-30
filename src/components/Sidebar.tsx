@@ -5,7 +5,6 @@ function Sidebar() {
   return (
     <div className={style.sidebar}>
     </div>
-
   );
 }
 
