@@ -18,7 +18,7 @@
     border-top: #FD7BC7 1px solid;
     border-right: #181A20 1px solid;
     background-color: #282B36;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-style: italic;
 }
 
@@ -32,7 +32,8 @@
     background-color: #20222C;
     color: #636C97;
     border-right: #181A20 1px solid;
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding-right: 30px;
 }
 
 .inactive_nav:hover{

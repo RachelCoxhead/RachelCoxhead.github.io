@@ -1,14 +1,28 @@
 .page {
+  display: flex;
   color:white;
-  background-color: #282B36;
+  background-color: #1A1D24;
   height: 100%;
-  font: 5rem;
+  padding: 30px;
   font-family: 'Monaco', sans-serif;
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
 }
 
+.code {
+
+}
+
+.line_numbers {
+  font-family: 'Monaco', sans-serif;
+  color: #636c97c0;
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  align-items: right;
+  padding-right: 30px;
+}
+
 .code_section {
-  border-left: 1.5px solid grey;
+  border-left: 1.5px solid #636c97c0;
   padding-left: 2rem;
 }
