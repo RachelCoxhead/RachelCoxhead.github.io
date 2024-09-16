@@ -3,14 +3,24 @@
   color:white;
   background-color: #1A1D24;
   height: 100%;
-  padding: 30px;
+  padding: 15px 30px 30px 30px;
   font-family: 'Monaco', sans-serif;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
   letter-spacing: 0.1rem;
 }
 
 .code {
 
+}
+
+.banner {
+  display: block;
+  white-space: nowrap;
+  color: rgb(184, 173, 213);
+  font-size: 0.75vw;
+  line-height: 0.76vw;
+  letter-spacing: -0.05rem;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .line_numbers {
