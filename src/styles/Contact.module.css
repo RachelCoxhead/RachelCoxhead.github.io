@@ -17,8 +17,8 @@
   display: block;
   white-space: nowrap;
   color: rgb(184, 173, 213);
-  font-size: 0.75vw;
-  line-height: 0.76vw;
+  font-size: 0.8vw;
+  line-height: 0.8vw;
   letter-spacing: -0.05rem;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -36,3 +36,4 @@
   border-left: 1.5px solid #636c97c0;
   padding-left: 2rem;
 }
+
