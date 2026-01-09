@@ -107,14 +107,21 @@ sections:
               icon: devicon/oracle
             - name: Firebase
               icon: devicon/firebase
-        - name: Software Development Practices
+        - name: Software Development Practices & Other Tools
           items:
             - name: Agile
               icon: devicon/hi
             - name: Test Driven Development
               icon: devicon/hi
-            - name: Version Control
-              icon: devicon/hi
+            - name: Version Control (Github)
+              icon: devicon/github
+            - name: CI/CD (CircleCi)
+              icon: devicon/circleci
+            - name: CRM Systems (Zendesk)
+              icon: devicon/zendesk            
+            - name: UI Design (Figma)
+              icon: devicon/figma
+
     design:
       style: grid
       show_levels: false
