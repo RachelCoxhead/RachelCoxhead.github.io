@@ -4,17 +4,22 @@
 
 main:
   - name: Projects
+    identifier: _usJxROa
     url: /#projects
     weight: 10
   - name: Skills
+    identifier: aDss-v9C
     url: /#skills
     weight: 20
   - name: Experience
+    identifier: 93Ya9pTJ
     url: /#experience
     weight: 30
-  - name: Blog
-    url: /#blog
+  - name: Games
+    identifier: games
+    url: /#games
     weight: 40
   - name: Contact
+    identifier: EdPXXtEb
     url: /#contact
     weight: 50

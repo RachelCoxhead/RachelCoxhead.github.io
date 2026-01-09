@@ -85,8 +85,8 @@ sections:
   - block: tech-stack
     id: skills
     content:
-      title: "Tech Stack"
-      subtitle: "Technologies I use to build things"
+      title: "Skills"
+      subtitle: "Technologies and methods I use to build things"
       categories:
         - name: Languages
           items:
@@ -94,40 +94,41 @@ sections:
               icon: devicon/typescript
             - name: JavaScript
               icon: devicon/javascript
+            - name: Java
+              icon: devicon/java
+            - name: C#
+              icon: devicon/csharp
+            - name: PhP
+              icon: devicon/php
             - name: Python
               icon: devicon/python
-            - name: Go
-              icon: devicon/go
-        - name: Frontend
+
+        - name: Development Frameworks
           items:
             - name: React
               icon: devicon/react
             - name: Next.js
               icon: devicon/nextjs
-            - name: Tailwind CSS
-              icon: devicon/tailwindcss
-            - name: Alpine.js
-              icon: devicon/alpinejs
+            - name: .NET MAUI
+              icon: devicon/dot-net
         - name: Backend
           items:
             - name: Node.js
               icon: devicon/nodejs
             - name: Express
               icon: devicon/express
-            - name: PostgreSQL
-              icon: devicon/postgresql
-            - name: Redis
-              icon: devicon/redis
-        - name: DevOps
+            - name: Oracle
+              icon: devicon/oracle
+            - name: Firebase
+              icon: devicon/firebase
+        - name: Software Development Practices
           items:
-            - name: Docker
-              icon: devicon/docker
-            - name: AWS
-              icon: devicon/amazonwebservices-wordmark
-            - name: GitHub Actions
-              icon: brands/github
-            - name: Vercel
-              icon: devicon/vercel
+            - name: Agile
+              icon: devicon/hi
+            - name: Test Driven Development
+              icon: devicon/hi
+            - name: Version Control
+              icon: devicon/hi
     design:
       style: grid
       show_levels: false
@@ -190,39 +191,18 @@ sections:
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
-  # Recent Blog Posts
-  - block: collection
-    id: blog
-    content:
-      title: Recent Posts
-      subtitle: 'Thoughts on web development, tech, and more'
-      text: ''
-      filters:
-        folders:
-          - blog
-        exclude_featured: false
-      count: 3
-      order: desc
-    design:
-      view: card
-      columns: 3
-      background:
-        color:
-          light: "#f5f5f5"
-          dark: "#08080c"
-      spacing:
-        padding: ["4rem", "0", "4rem", "0"]
+  
   
   # Contact Section
   - block: contact-info
     id: contact
     content:
       title: Get In Touch
-      subtitle: "Let's build something amazing together"
+      subtitle: "Let's build something"
       text: |-
-        I'm always interested in hearing about new projects and opportunities.
-        Whether you're looking to hire, collaborate, or just want to say hi, feel free to reach out!
-      email: alex@example.com
+        I'm always interested in hearing about new opportunities.
+        Feel free to reach out if I've piqued your curiosity!
+      email: rcox2990@gmail.com
       autolink: true
     design:
       columns: '1'
@@ -238,12 +218,12 @@ sections:
     content:
       title: "Open to Opportunities"
       text: |-
-        I'm currently looking for **senior engineering** or **tech lead** roles.
+        I'm currently looking for **junior developer** roles.
         
-        Let's connect and discuss how I can help your team.
+        Let's connect and discuss what I can do for you.
       button:
         text: 'Download Resume'
-        url: uploads/resume.pdf
+        url: resources\other\RachelCoxhead_Resume.pdf
         new_tab: true
     design:
       card:
