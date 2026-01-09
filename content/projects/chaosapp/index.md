@@ -1,38 +1,30 @@
 ---
-title: "E-Commerce Platform"
+title: "Chaos App - an experimental application of Chaos Engineering"
 date: 2024-11-15
-summary: "E-commerce API backend with Stripe payments, inventory management, and real-time webhooks"
+summary: "Real-time, multiplayer web app to gamify chaos engineering in a workplace safety context."
 tags: 
-  - Backend
+  - Web App
+  - Real-time
+  - React
   - Node.js
-  - API
-  - E-Commerce
 tech_stack:
   - React
   - TypeScript
   - Node.js
-  - Express
-  - PostgreSQL
-  - Stripe
-  - Redis
-  - Docker
+  - Firebase
+  - Ably
 links:
   - type: github
-    url: https://github.com/alexjohnson/ecommerce-platform
+    url: https://github.com/AUT-RD-2023/ChaosApp
     label: Code
-  - type: live
-    url: https://shop-demo.example.com
-    label: Demo
+  # - type: live
+  #   url: https://shop-demo.example.com
+  #   label: Demo
 featured: true
-status: "Live"
-role: "Lead Developer"
-duration: "4 months"
-team_size: 2
-highlights:
-  - "Handles 10k+ concurrent users"
-  - "99.9% uptime SLA"
-  - "Processing $50k+ monthly transactions"
-  - "60% faster page load vs competitors"
+status: null
+role: "Developer and Product Owner"
+duration: "8 months"
+team_size: 5
 ---
 
 A modern, scalable e-commerce platform built from scratch with performance and user experience as top priorities.

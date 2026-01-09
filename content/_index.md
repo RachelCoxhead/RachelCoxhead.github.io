@@ -22,10 +22,9 @@ sections:
         enable: true
         prefix: "I build"
         strings:
-          - "full-stack web apps"
-          - "scalable APIs"
-          - "beautiful UIs"
-          - "open source tools"
+          - "usable tools."
+          - "real-time systems."
+          - "interactive experiences"
         type_speed: 70
         delete_speed: 40
         pause_time: 2500
@@ -52,26 +51,11 @@ sections:
     id: projects
     content:
       title: "Featured Projects"
-      subtitle: "A selection of my recent work"
+      subtitle: "A selection of my work"
       count: 6
       filters:
         folders:
           - projects
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Full-Stack
-          tag: Full-Stack
-        - name: Frontend
-          tag: Frontend
-        - name: Backend
-          tag: Backend
-      default_button_index: 0
-      # Archive link auto-shown if more projects exist than 'count' above
-      # archive:
-      #   enable: false  # Set to false to explicitly hide
-      #   text: "Browse All"  # Customize text
-      #   link: "/work/"  # Custom URL
     design:
       columns: 3
       background:
@@ -117,6 +101,8 @@ sections:
               icon: devicon/nodejs
             - name: Express
               icon: devicon/express
+            - name: MongoDB
+              icon: devicon/mongodb
             - name: Oracle
               icon: devicon/oracle
             - name: Firebase

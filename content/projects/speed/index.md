@@ -1,35 +1,30 @@
 ---
-title: "TaskFlow - Project Management Tool"
-date: 2024-09-20
-summary: "Real-time collaborative task management application with drag-and-drop Kanban boards and team features"
+title: "SPEED - 'Software Practice Emperical Evidence' Database"
+date: 2023-07-01
+summary: "Next.js app deployed on Vercel to demonstrate authorisation for different account levels."
 tags:
-  - Full-Stack
-  - Next.js
-  - Real-Time
-  - Productivity
+  - Web
 tech_stack:
-  - Next.js
-  - TypeScript
-  - Prisma
-  - PostgreSQL
-  - WebSockets
-  - Tailwind CSS
+  - Next
+  - React
+  - Express
+  - Node.js
+  - MongoDB
+  - Vercel
 links:
   - type: github
-    url: https://github.com/alexjohnson/taskflow
+    url: https://github.com/Ithrendrial/SPEED
     label: Code
-  - type: live
-    url: https://taskflow-demo.example.com
-    label: Demo
+  # - type: live
+  #   url: https://weathernow-demo.netlify.app
+  #   label: Demo
 featured: true
-status: "Live"
-role: "Solo Developer"
-duration: "2 months"
-team_size: 1
+status: null
+role: "Developer and Scrum Master"
+duration: "6 months"
+team_size: 3
 highlights:
-  - "Real-time collaboration with WebSockets"
-  - "2000+ active users"
-  - "Featured on Product Hunt"
+  - ""
 ---
 
 A modern, intuitive task management tool built for remote teams. Features real-time collaboration, customizable workflows, and beautiful UI.
@@ -140,31 +135,3 @@ Built as a modern monolith with Next.js API routes:
 - Supabase for PostgreSQL
 - Redis Cloud for caching
 - AWS S3 for file storage
-
-## User Feedback
-
-> "Finally, a task manager that doesn't get in my way. The real-time updates are magical!" - Sarah K., Product Manager
-
-> "We switched from Trello and haven't looked back. TaskFlow is faster and more intuitive." - Mike R., Engineering Lead
-
-## Open Source
-
-TaskFlow is open source! Contributions welcome.
-
-**License**: MIT  
-**GitHub**: [alexjohnson/taskflow](https://github.com/alexjohnson/taskflow)  
-**Demo**: [Try it live](https://taskflow-demo.example.com)
-
-## What's Next
-
-Currently working on:
-- [ ] Mobile apps (iOS & Android)
-- [ ] Gantt chart view
-- [ ] Advanced reporting and analytics
-- [ ] API for third-party integrations
-- [ ] Offline mode support
-
----
-
-**Status**: ✅ Live & Actively Maintained  
-**Try it**: [taskflow-demo.example.com](https://taskflow-demo.example.com)

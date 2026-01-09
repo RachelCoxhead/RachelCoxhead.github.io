@@ -1,26 +1,22 @@
 ---
-title: "WeatherNow - Real-Time Weather App"
-date: 2024-06-10
-summary: "Beautiful weather application with real-time data, 7-day forecasts, and interactive maps"
+title: "SPEED - Software "
+date: 2023-07-01
+summary: ".NET Maui Android app to consolidate various popular productivity techniques into a single tool."
 tags:
-  - Frontend
-  - React
-  - API Integration
-  - PWA
+  - Android
 tech_stack:
-  - React
-  - TypeScript
-  - OpenWeather API
-  - Mapbox
-  - Tailwind CSS
-  - Vite
+  - .NET MAUI
+  - Android
+  - C#
+  - SQLite
+
 links:
   - type: github
-    url: https://github.com/alexjohnson/weather-now
+    url: https://github.com/Johnson-blip02/2023_S2_-52-_TaskFlow
     label: Code
-  - type: live
-    url: https://weathernow-demo.netlify.app
-    label: Demo
+  # - type: live
+  #   url: https://weathernow-demo.netlify.app
+  #   label: Demo
 featured: false
 status: "Live"
 role: "Solo Developer"
