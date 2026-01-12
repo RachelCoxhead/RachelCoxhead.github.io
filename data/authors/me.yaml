@@ -9,7 +9,7 @@ postnominals: []
 status:
   icon: ""
 role: "Software Developer"
-email: "alex@example.com"
+email: "rcox2990@gmail.com"
 bio: "I'm a junior developer curious about and driven to make user-centred digital experiences. My work focuses on web and mobile solutions in an Agile environment.\n"
 affiliations:
   - name: "Tech Corp"
@@ -43,7 +43,7 @@ experience:
   - role: "Group Services Administrator"
     org: "University of Auckland"
     start: "2024-07-01"
-    summary: "I provide administrative teaching support for teaching staff in the university. This includes assisting with Canvas course management, exam and test coordination, collating required documentation required for reports, and general admin tasks such as purchase requests, and event coordination. I also take special interest in identifying areas of improvement and streamlining workflows and tasks. \n"
+    summary: "I provide administrative teaching support for teaching staff in the university. This includes assisting with Canvas course management, exam and test coordination, collating required documentation required for reports, and general admin tasks such as purchase requests, and event coordination. \n\nI also take special interest in identifying areas of improvement and streamlining workflows and tasks. \n"
   - role: "Research Assistant"
     org: "University of Auckland"
     start: "2024-05-01"

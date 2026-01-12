@@ -216,7 +216,7 @@ sections:
         Let's connect and discuss what I can do for you.
       button:
         text: 'Download Resume'
-        url: resources\other\RachelCoxhead_Resume.pdf
+        url: 'static\uploads\resume.pdf'
         new_tab: true
     design:
       card:
