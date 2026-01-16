@@ -64,6 +64,28 @@ sections:
           dark: "#0d0d12"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
+
+  # Games Carousel
+  - block: logos
+    id: games
+    content:
+      title: Games
+      text: >-
+        In my spare time, I hack on some games.
+      logo_folder: games
+      cta:
+        text: See all games on itch.io
+        url: https://itch.io/profile/ithrendrial
+    design:
+      display_mode: carousel
+      show_pattern: true
+      scroll_speed: 0.4
+      background:
+        color:
+          light: "#ffffff"
+          dark: "#0d0d12"
+      spacing:
+        padding: ["4rem", "0", "4rem", "0"]
   
   # Visual Tech Stack - Icons organized by category
   - block: tech-stack
