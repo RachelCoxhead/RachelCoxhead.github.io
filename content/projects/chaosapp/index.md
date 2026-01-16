@@ -17,9 +17,6 @@ links:
   - type: github
     url: https://github.com/AUT-RD-2023/ChaosApp
     label: Code
-  # - type: live
-  #   url: https://shop-demo.example.com
-  #   label: Demo
 featured: true
 status: null
 role: "Developer and Product Owner"
@@ -27,133 +24,42 @@ duration: "8 months"
 team_size: 5
 ---
 
-A modern, scalable e-commerce platform built from scratch with performance and user experience as top priorities.
-
 ## Overview
+A real-time, multiplayer web app to gamify chaos engineering in a workplace safety context. 
 
-Built a complete e-commerce solution for a mid-sized retail company looking to expand online. The platform handles everything from product catalog management to payment processing and order fulfillment.
+**Client brief included:**
+- Create an installable web application which extends the potential of an existing interactive PDF.
+- Boost user engagement and improving scenario generation by automating facilitation.
+- Automate collection of session data, logging and creating a summary report for future reference.
 
-## Key Features
+### Background
+Our client approached us with an existing PDF-based team activity intended to support workplaces in exploring staff responses in unpredictable scenarios, and then discuss how to mitigate risks. Results were manually recorded by a facilitator.  **They wanted us to develop an installable web app to impove usablility and user engagement with the product, and allow for automated session data collection.**
 
-### Customer-Facing
-- **Product Catalog** - Dynamic filtering, sorting, and search with instant results
-- **Shopping Cart** - Real-time inventory checking and price calculations
-- **Checkout** - Secure payment processing via Stripe with Apple Pay/Google Pay support
-- **Order Tracking** - Real-time order status updates with email notifications
-- **User Accounts** - Profile management, order history, and saved addresses
+### Architecture
+The final product is an **installable React web app** which utilises the **Firebase Realtime Database** to store session data.
 
-### Admin Dashboard
-- **Inventory Management** - Real-time stock tracking and low-stock alerts
-- **Order Management** - Bulk order processing and fulfillment workflow
-- **Analytics** - Sales dashboards, customer insights, and revenue reporting
-- **Product Management** - Easy product creation with image uploads and variants
+To achieve realtime connection between users, the app was developed using the **Ably platform**. This allowed users to join a lobby and broadcast or recieve  data during the session using the publish-subscribe messaging pattern over websocket connections.
+![Architecture diagram](chaos_architecture.png)
 
-## Technical Highlights
+### Product
+![Story Flow](flow.png)
+The product is a multi-player realtime app, where up to 8 players can join a session using a room code and seperate sessions can run concurrently. 
 
-### Performance Optimization
-- Implemented Redis caching reducing database queries by 70%
-- Optimized images with WebP format and lazy loading
-- Server-side rendering for critical pages improving SEO and load times
-- CDN integration for global content delivery
+Once the session begins, players are shown an AI generated scenario which includes a workplace hazard. Players are then invited to type what their responses would be, discuss responses, and then vote on the best anonymous response. The next round then begins, adding a new factor to the previous scenario, and the discussion and voting phases are repeated. After a set number of rounds pass, the game ends, score and a PDF report of the responses is generated and can be downloaded.
 
-### Scalability
-- Microservices architecture allowing independent scaling
-- Horizontal scaling with load balancing
-- Database read replicas for improved query performance
-- Message queues for async processing (order emails, inventory updates)
+![Game Screenshots](screenshots.png)
 
-### Security
-- JWT authentication with refresh tokens
-- Rate limiting to prevent abuse
-- Input validation and sanitization
-- PCI-compliant payment processing via Stripe
+#### Notable Features
+- Real-time, multiplayer functionality.
+- Host/Player user distinction.
+- Game settings including number of rounds and timer length. 
+- 'Skip to end' and 'add time' buttons to adjust gameplay mid-session.
+- Downloadable PDF summary generation.
 
-## Architecture
+### Project Management
+We followed the PMBOK 5-phase model as our overarching methodology, including the initiation, planning, execution, monitoring, and closing phases.
 
-```
-┌─────────────┐     ┌──────────────┐     ┌─────────────┐
-│  React SPA  │────▶│   REST API   │────▶│ PostgreSQL  │
-└─────────────┘     │  (Express)   │     └─────────────┘
-                    └──────┬───────┘
-                           │
-                    ┌──────▼───────┐
-                    │    Redis     │
-                    │   (Cache)    │
-                    └──────────────┘
-```
+We chose to implement the Scrum methodology during the execution phase, splitting it into six two-week sprints including Sprint Planning, Spirint Review, and Retrospective meetings. Regular standup meetings and client meetings were also held. **I held both a Software Developer and Product Owner role.**
 
-## Challenges & Solutions
-
-### Challenge 1: Inventory Sync
-**Problem**: Multiple users buying same product simultaneously causing overselling
-
-**Solution**: Implemented optimistic locking with Redis to ensure inventory accuracy during concurrent purchases
-
-### Challenge 2: Payment Processing
-**Problem**: Handling payment failures gracefully while maintaining order integrity
-
-**Solution**: Built robust state machine for order processing with automatic retry logic and customer notifications
-
-### Challenge 3: Performance at Scale
-**Problem**: Slow page loads during traffic spikes
-
-**Solution**: Implemented multi-layer caching strategy (CDN, Redis, in-memory) and database query optimization
-
-## Results
-
-- **Performance**: 60% faster page load times compared to previous platform
-- **Conversion**: 25% increase in conversion rate due to improved UX
-- **Uptime**: 99.9% uptime over 6 months in production
-- **Scale**: Successfully handled Black Friday with 10k concurrent users
-- **Revenue**: Processing over $50k in monthly transactions
-
-## Tech Stack Details
-
-**Frontend**
-- React 18 with TypeScript
-- Tailwind CSS for styling
-- React Query for data fetching
-- React Hook Form for forms
-
-**Backend**
-- Node.js with Express
-- PostgreSQL with Prisma ORM
-- Redis for caching and sessions
-- Bull for job queues
-
-**Infrastructure**
-- Docker containers
-- AWS EC2 for hosting
-- AWS S3 for image storage
-- Cloudflare CDN
-- GitHub Actions for CI/CD
-
-**Payment & Services**
-- Stripe for payments
-- SendGrid for emails
-- Sentry for error tracking
-
-## Future Improvements
-
-- [ ] Mobile app (React Native)
-- [ ] Multi-language support
-- [ ] Wishlist and product recommendations
-- [ ] Live chat support
-- [ ] Advanced analytics dashboard
-
-## Screenshots
-
-*(Screenshots would go here in production)*
-
-## Lessons Learned
-
-1. **Start with Performance**: Built with performance in mind from day one rather than optimizing later
-2. **Testing Matters**: Comprehensive test suite caught critical bugs before production
-3. **Monitor Everything**: Proper logging and monitoring essential for maintaining uptime
-4. **User Feedback**: Regular user testing revealed UX issues we wouldn't have found otherwise
-
----
-
-**Project Status**: ✅ Live in Production  
-**GitHub**: [View Source Code](https://github.com/alexjohnson/ecommerce-platform)  
-**Demo**: [Try it Live](https://shop-demo.example.com)
+Trello was used for sprint tracking.
+![Trello](chaos_trello.png)
