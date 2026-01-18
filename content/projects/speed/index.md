@@ -19,6 +19,8 @@ links:
   #   url: https://weathernow-demo.netlify.app
   #   label: Demo
 featured: true
+image:
+  placement: 3
 status: null
 role: "Developer and Scrum Master"
 duration: "2 months"

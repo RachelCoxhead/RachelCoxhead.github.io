@@ -132,15 +132,15 @@ sections:
         - name: Software Development Practices & Other Tools
           items:
             - name: Agile
-              icon: devicon/hi
+              icon: custom/agile
             - name: Test Driven Development
-              icon: devicon/hi
+              icon: custom/test
             - name: Version Control (Github)
               icon: devicon/github
             - name: CI/CD (CircleCi)
-              icon: devicon/circleci
+              icon: custom/CircleCI
             - name: CRM Systems (Zendesk)
-              icon: devicon/zendesk            
+              icon: custom/zendesk           
             - name: UI Design (Figma)
               icon: devicon/figma
 

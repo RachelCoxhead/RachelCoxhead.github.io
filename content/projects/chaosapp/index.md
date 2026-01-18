@@ -18,6 +18,8 @@ links:
     url: https://github.com/AUT-RD-2023/ChaosApp
     label: Code
 featured: true
+image:
+  placement: 3
 status: null
 role: "Developer and Product Owner"
 duration: "8 months"

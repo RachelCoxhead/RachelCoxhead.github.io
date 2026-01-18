@@ -7,19 +7,20 @@ hugoblox:
     description: I am a junior developer curious about and driven to make user-centred digital experiences. My work focuses on web and mobile solutions in an Agile environment.
   theme:
     mode: light
-    pack: coffee
+    pack: default
     colors:
-      primary: "#ce5403"
-      secondary: "#661a00"
+      primary: cyan
+      secondary: "cyan"
       neutral: ""
     colors_light:
-      primary: ""
-      secondary: ""
+      primary: violet
+      secondary: violet
       neutral: ""
     colors_dark:
       primary: ""
       secondary: ""
       neutral: ""
+    surfaces: {}
   typography:
     font: sans
     size: md
@@ -33,7 +34,7 @@ hugoblox:
     sticky: true
     align: center
     search: true
-    theme_toggle: true
+    theme_toggle: false
   footer:
     style: minimal
     language_switcher: true

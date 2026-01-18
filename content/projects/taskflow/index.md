@@ -18,6 +18,8 @@ links:
   #   url: https://weathernow-demo.netlify.app
   #   label: Demo
 featured: false
+image:
+  placement: 3
 status: ""
 role: "D"
 duration: "6 months"

@@ -36,8 +36,8 @@ outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
   section: [HTML, RSS]
 imaging:
-  resampleFilter: lanczos
-  quality: 90
+  resampleFilter: box
+  quality: 100
   anchor: smart
   hint: picture
 timeout: 600000
