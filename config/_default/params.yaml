@@ -6,7 +6,7 @@ hugoblox:
     tagline: Software Developer
     description: I am a junior developer curious about and driven to make user-centred digital experiences. My work focuses on web and mobile solutions in an Agile environment.
   theme:
-    mode: dark
+    mode: light
     pack: dracula
     colors:
       primary: violet
@@ -25,7 +25,7 @@ hugoblox:
     sticky: true
     align: center
     search: true
-    theme_toggle: false
+    theme_toggle: true
   footer:
     style: minimal
     language_switcher: true
