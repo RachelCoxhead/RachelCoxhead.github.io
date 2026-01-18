@@ -9,18 +9,22 @@ hugoblox:
     mode: light
     pack: default
     colors:
-      primary: cyan
-      secondary: "cyan"
+      primary: "#81c8df"
+      secondary: "#0a5e7b"
       neutral: ""
     colors_light:
-      primary: violet
-      secondary: violet
+      primary: ""
+      secondary: ""
       neutral: ""
     colors_dark:
       primary: ""
       secondary: ""
       neutral: ""
-    surfaces: {}
+    surfaces:
+      header:
+        background: "#0a5e7b"
+        foreground: "#ffffff"
+      footer: {}
   typography:
     font: sans
     size: md
