@@ -42,7 +42,7 @@ sections:
       background:
         color:
           light: "#fafafa"
-          dark: "#0a0a0f"
+          dark: "#fafafa"
       spacing:
         padding: ["6rem", "0", "4rem", "0"]
   
@@ -61,7 +61,7 @@ sections:
       background:
         color:
           light: "#ffffff"
-          dark: "#0d0d12"
+          dark: "#ffffff"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
 
@@ -83,7 +83,7 @@ sections:
       background:
         color:
           light: "#ffffff"
-          dark: "#0d0d12"
+          dark: "#ffffff"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
@@ -150,7 +150,7 @@ sections:
       background:
         color:
           light: "#f5f5f5"
-          dark: "#08080c"
+          dark: "#f5f5f5"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
@@ -202,7 +202,7 @@ sections:
       background:
         color:
           light: "#ffffff"
-          dark: "#0d0d12"
+          dark: "#ffffff"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
@@ -224,7 +224,7 @@ sections:
       background:
         color:
           light: "#ffffff"
-          dark: "#0d0d12"
+          dark: "#ffffff"
       spacing:
         padding: ["4rem", "0", "4rem", "0"]
   
@@ -248,7 +248,7 @@ sections:
       background:
         color:
           light: "#f5f5f5"
-          dark: "#08080c"
+          dark: "#f5f5f5"
       spacing:
         padding: ["4rem", "0", "6rem", "0"]
 ---

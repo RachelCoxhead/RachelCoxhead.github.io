@@ -7,9 +7,17 @@ hugoblox:
     description: I am a junior developer curious about and driven to make user-centred digital experiences. My work focuses on web and mobile solutions in an Agile environment.
   theme:
     mode: light
-    pack: dracula
+    pack: coffee
     colors:
-      primary: violet
+      primary: "#ce5403"
+      secondary: "#661a00"
+      neutral: ""
+    colors_light:
+      primary: ""
+      secondary: ""
+      neutral: ""
+    colors_dark:
+      primary: ""
       secondary: ""
       neutral: ""
   typography:
