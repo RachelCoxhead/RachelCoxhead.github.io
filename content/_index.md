@@ -51,13 +51,14 @@ sections:
     id: projects
     content:
       title: "Featured Projects"
-      subtitle: "A selection of my work"
+      subtitle: "A selection of my work."
       count: 6
       filters:
         folders:
           - projects
     design:
-      columns: 3
+      columns: 2
+      focal_point: Smart
       background:
         color:
           light: "#ffffff"
@@ -71,7 +72,7 @@ sections:
     content:
       title: Games
       text: >-
-        In my spare time, I hack on some games.
+        I like to take part in game jams with my friends, see what we've made!
       logo_folder: games
       cta:
         text: See all games on itch.io
@@ -92,7 +93,7 @@ sections:
     id: skills
     content:
       title: "Skills"
-      subtitle: "Technologies and methods I use to build things"
+      subtitle: "Technologies and methods I use to build things."
       categories:
         - name: Languages
           items:

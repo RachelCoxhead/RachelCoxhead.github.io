@@ -1,6 +1,7 @@
 ---
 title: "Chaos App - an experimental application of Chaos Engineering"
 date: 2024-11-15
+weight: 1
 summary: "Real-time, multiplayer web app to gamify chaos engineering in a workplace safety context."
 tags: 
   - Web App
@@ -19,7 +20,9 @@ links:
     label: Code
 featured: true
 image:
-  placement: 3
+      preview_only: true
+      focal_point: Top
+    
 status: null
 role: "Developer and Product Owner"
 duration: "8 months"

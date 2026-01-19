@@ -1,6 +1,7 @@
 ---
 title: "TaskFlow "
 date: 2023-07-01
+weight: 2
 summary: ".NET Maui Android app to consolidate various popular productivity techniques into a single tool."
 tags:
   - Android
@@ -19,11 +20,31 @@ links:
   #   label: Demo
 featured: false
 image:
-  placement: 3
+  preview_only: true
 status: ""
-role: "D"
+role: "Developer"
 duration: "6 months"
 team_size: 4
 highlights:
   - ""
 ---
+
+### Overview ###
+TaskFlow is an Android app developed to consolidate various popular productivity techniques into a single tool. The application was developed in **.NET MAUI** and an **SQLite database** was used for data storage.
+
+Product Features:
+- To Do List (with task priority and deadlines).
+  - Task editing, archiving, and recycle bin.
+  - Task filtering by importance, due date, label, etc.
+- A Pommodoro timer with customisation abilities.
+- A "Ta-dah!" list (completed tasks).
+- A day-view schedule to easily time block your calendar for specific tasks.
+- A calendar to easily view task due-dates.
+- A point system with achievements to gamify your productivity.
+
+![Screenshots](screenshots.png)
+
+### Project Management ###
+This project was carried out using the Agile Scrum methodology, in a four person team, with a two iteration development period. Trello was used to track user stories.
+
+![Trello](taskflow_trello.png)
