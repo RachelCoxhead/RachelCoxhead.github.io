@@ -238,7 +238,7 @@ sections:
         
         Let's connect and discuss what I can do for you.
       button:
-        text: 'Download Resume'
+        text: 'Download Resume
         url: 'uploads/resume.pdf'
         new_tab: true
     design:
